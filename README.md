@@ -60,6 +60,7 @@ This is a simple example to create profile for Wily Beast and Weakest Creature. 
     "Version": "1.0",   // Profile version 1.0
     "Target": "th17",  // The execution name for Wily Beast and Weakest Creature
     "Platform": 32, // WBaWC is a 32-bit application
+	"Import": ["default.lua", "th17.lua"],
 	"Reset": {
 		"Parameters": ["frame_count"]	// The Reset function takes the value of "frame_count" as a parameter
 	},
